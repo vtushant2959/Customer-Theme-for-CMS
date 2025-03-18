@@ -1,0 +1,64 @@
+@import url('style.css'); /* Import global styles */
+
+/* ABout Page */
+.about{
+    text-align: center;
+    padding: 80px 20px;
+    background: #f0f0f0;
+}
+
+.about h1{
+    font-size: 36px;
+    color: #007bff;
+}
+
+.about p{
+    margin-top: 20px;
+    font-size: 18px;
+    color: #555;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 1.6;
+}
+
+/* Content Section */
+.about-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-top: 40px;
+}
+
+.about-content img{
+    width: 350px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.about-text{
+    max-width: 500px;
+    text-align: left;
+}
+
+.about-text h2{
+    color: #007bff;
+    margin-bottom: 10px;
+}
+
+.about-text p{
+    font-size: 16px;
+    color: #333;
+}
+
+/* Responsive */
+@media (max-width: 768px){
+    .about-content{
+        flex-direction: column;
+    }
+
+    .about-text{
+        text-align: center;
+    }
+}

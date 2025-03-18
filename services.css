@@ -1,0 +1,54 @@
+@import url('style.css'); /* Import global style */
+
+/* Services page */
+
+.services{
+    text-align: center;
+    padding: 80px 20px;
+    background: #fff;
+}
+
+.services h1{
+    font-size: 36px;
+    color: #007bff;
+}
+
+.service-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-top: 40px;
+}
+
+.services{
+    background: #f8f9fa;
+    padding: 20px;
+    width: 280px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: 0.3s ease-in-out;
+}
+
+.service:hover{
+    transform: translateY(-5px);
+    background: #007bff;
+    color: white;
+}
+
+.service h3{
+    margin-bottom: 10px;
+}
+
+.service p{
+    font-size: 16px;
+    color: #555;
+}
+
+/* Respsponsive */
+@media (max-width: 768px){
+    .service-container{
+        flex-direction: column;
+        align-items: center;
+    }
+}

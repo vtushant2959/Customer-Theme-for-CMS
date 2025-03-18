@@ -1,0 +1,72 @@
+@import url('style.css'); /* Import global styles */
+
+/* Contact Page */
+
+.contact{
+    text-align: center;
+    padding: 80px 20px;
+    background: #f8f8f8;
+}
+
+.contact h1{
+    font-size: 36px;
+    color: #007bff;
+}
+
+/* Contact Form */
+.contact form{
+    max-width: 500px;
+    margin: 30px auto;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact form input, .contact form textarea{
+    margin: 10px 0;
+    padding: 12px;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact form textarea{
+    height: 120px;
+    resize: none;
+}
+
+.contact form button{
+    padding: 12px;
+    background: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.contact form button:hover{
+    background: #0056b3;
+}
+
+/* Contact Details */
+
+.contact-details{
+    margin-top: 40px;
+    font-size: 18px;
+}
+
+.contact-details p{
+    margin-bottom: 10px;
+}
+
+/* Resposnive */
+@media (max-width: 768px){
+    .contact form{
+        width: 90%;
+    }
+}
